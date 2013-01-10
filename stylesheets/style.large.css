@@ -1,0 +1,26 @@
+/* line 43, ../sass/style.large.scss */
+body {
+  margin: 0 auto;
+  max-width: 58em;
+}
+
+/* line 48, ../sass/style.large.scss */
+#UserInput {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 26, ../sass/style.large.scss */
+#UserInput > * {
+  float: left;
+  margin-left: 1.724%;
+  width: 12.808%;
+}
+/* line 30, ../sass/style.large.scss */
+#UserInput > *:nth-child(7n) {
+  clear: right;
+}
+/* line 33, ../sass/style.large.scss */
+#UserInput > *:nth-child(7n + 1) {
+  clear: left;
+  margin-left: 0;
+}

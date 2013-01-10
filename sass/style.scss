@@ -1,0 +1,126 @@
+@import "compass/reset";
+@import "lib/bootstrap";
+@import "compass/css3";
+
+$color-dairy:           #8dc1cf;
+$color-dairy-text:      #019ec7;
+$color-fruits:          #fae500;
+$color-fruits-text:     #fc9d05;
+$color-grains:          #f39d8c;
+$color-grains-text:     #e64469;
+$color-label:           #000000;
+$color-label-text:      #ffffff;
+$color-meat:            #ec5a87;
+$color-meat-text:       #c21565;
+$color-nuts:            #f8bf00;
+$color-nuts-text:       #c87121;
+$color-oils:            #9a599d;
+$color-oils-text:       #4c416c;
+$color-selected:        #000000;
+$color-vegetable:       #b2d59d;
+$color-vegetable-text:  #449666;
+
+$dimension-label-height:        40px;
+$dimension-label-font-size:     20px;
+$dimension-category-height:     35px;
+$dimension-category-font-size:  13px;
+
+#Values {
+  .dairy,
+  .fruits,
+  .grains,
+  .meat,
+  .nuts,
+  .oils,
+  .vegetables {
+    font-size: $dimension-category-font-size;
+    height: $dimension-category-height;
+  }
+  .dairy td {
+    background-color: $color-dairy;
+    color: $color-dairy-text;
+    &.selected {
+      background-color: $color-dairy-text;
+      color: $color-dairy;
+    }
+  }
+  .fruits td {
+    background-color: $color-fruits;
+    color: $color-fruits-text;
+    &.selected {
+      background-color: $color-fruits-text;
+      color: $color-fruits;
+    }
+  }
+  .grains td {
+    background-color: $color-grains;
+    color: $color-grains-text;
+    &.selected {
+      background-color: $color-grains-text;
+      color: $color-grains;
+    }
+  }
+  .meat td {
+    background-color: $color-meat;
+    color: $color-meat-text;
+    &.selected {
+      background-color: $color-meat-text;
+      color: $color-meat;
+    }
+  }
+  .nuts td {
+    background-color: $color-nuts;
+    color: $color-nuts-text;
+    &.selected {
+      background-color: $color-nuts-text;
+      color: $color-nuts;
+    }
+  }
+  .oils td {
+    background-color: $color-oils;
+    color: $color-oils-text;
+    &.selected {
+      background-color: $color-oils-text;
+      color: $color-oils;
+    }
+  }
+  .labels {
+    font-size: $dimension-label-font-size;
+    height: $dimension-label-height;
+    td {
+      background-color: $color-label;
+      color: $color-label-text;
+    }
+  }
+  .vegetables td {
+    background-color: $color-vegetable;
+    color: $color-vegetable-text;
+  }
+  &.fruits-avocados .fruits-avocados,
+  &.fruits-bananas .fruits-bananas,
+  &.fruits-cantalope .fruits-cantalope,
+  &.fruits-kiwis .fruits-kiwis,
+  &.fruits-mango .fruits-mango,
+  &.fruits-oranges .fruits-oranges,
+  &.fruits-papaya .fruits-papaya,
+  &.fruits-tomatoes .fruits-tomatoes {
+    background-color: $color-fruits-text;
+    color: $color-fruits;
+  }
+  &.vegetable-beans .vegetable-beans,
+  &.vegetable-beets .vegetable-beets,
+  &.vegetable-broccoli .vegetable-broccoli,
+  &.vegetable-cabbage .vegetable-cabbage,
+  &.vegetable-carrots .vegetable-carrots,
+  &.vegetable-collards .vegetable-collards,
+  &.vegetable-green-peas .vegetable-green-peas,
+  &.vegetable-mushrooms .vegetable-mushrooms,
+  &.vegetable-peppers .vegetable-peppers,
+  &.vegetable-potatoes .vegetable-potatoes,
+  &.vegetable-soy .vegetable-soy,
+  &.vegetable-spinach .vegetable-spinach,
+  &.vegetable-sweet-potatoes .vegetable-sweet-potatoes {
+    background-color: $color-vegetable-text;
+    color: $color-vegetable;
+  }
+}

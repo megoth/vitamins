@@ -1,0 +1,50 @@
+@import "compass/utilities/general/clearfix";
+
+$dimension-container-width: 58;
+$dimension-footer-height: 5em;
+$dimension-grid-margin-abs: 1;
+$dimension-grid-num: 7;
+
+@mixin grid-none {
+  > .grid-item {
+    float: none;
+    width: auto;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@mixin grid-offset($span: 1) {
+  margin-left: $dimension-grid-width * $span + $dimension-grid-margin * ($span - 1);
+  &:first-child {
+    margin-left: $dimension-grid-width * $span + $dimension-grid-margin * $span;
+  }
+}
+@mixin grid-row($grid-num, $margin-abs) {
+  $dimension-grid-margin: $dimension-grid-margin-abs / $dimension-container-width * 100%;
+  $dimension-grid-width: ($dimension-container-width - $margin-abs * ($grid-num - 1)) / $grid-num / $dimension-container-width * 100%;
+  @include clearfix;
+  > * {
+    float: left;
+    margin-left: $dimension-grid-margin;
+    width: $dimension-grid-width;
+    &:nth-child(#{$grid-num}n) {
+      clear: right;
+    }
+    &:nth-child(#{$grid-num}n + 1) {
+      clear: left;
+      margin-left: 0;
+    }
+  }
+}
+@mixin grid-span($span: 1) {
+  width: $dimension-grid-width * $span + $dimension-grid-margin * ($span - 1);
+}
+
+body {
+  margin: 0 auto;
+  max-width: $dimension-container-width * 1em;
+}
+
+#UserInput {
+  @include grid-row(7, 1);
+}
