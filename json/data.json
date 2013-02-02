@@ -1,0 +1,509 @@
+{
+    "vitamins": [
+        {
+            "key": "A",
+            "html": "A"
+        },
+        {
+            "key": "B1",
+            "html": "B<sup>1</sup>"
+        },
+        {
+            "key": "B2",
+            "html": "B<sup>2</sup>"
+        },
+        {
+            "key": "B3",
+            "html": "B<sup>3</sup>"
+        },
+        {
+            "key": "B5",
+            "html": "B<sup>5</sup>"
+        },
+        {
+            "key": "B6",
+            "html": "B<sup>6</sup>"
+        },
+        {
+            "key": "B7",
+            "html": "B<sup>7</sup>"
+        },
+        {
+            "key": "B9",
+            "html": "B<sup>9</sup>"
+        },
+        {
+            "key": "B12",
+            "html": "B<sup>12</sup>"
+        },
+        {
+            "key": "C",
+            "html": "C"
+        },
+        {
+            "key": "D",
+            "html": "D"
+        },
+        {
+            "key": "E",
+            "html": "E"
+        },
+        {
+            "key": "K",
+            "html": "K"
+        }
+    ],
+    "categories": [
+        {
+            "key": "dairy",
+            "name": "Dairy",
+            "default": {
+                "background-color": "#8dc1cf",
+                "color": "#019ec7"
+            },
+            "focus": {
+                "background-color": "#019ec7",
+                "color": "#8dc1cf"
+            }
+        },
+        {
+            "key": "fruits",
+            "name": "Fruits",
+            "default": {
+                "background-color": "#fae500",
+                "color": "#fc9d05"
+            },
+            "focus": {
+                "background-color": "#fc9d05",
+                "color": "#fae500"
+            }
+        },
+        {
+            "key": "grains",
+            "name": "Grains",
+            "default": {
+                "background-color": "#f39d8c",
+                "color": "#e64469"
+            },
+            "focus": {
+                "background-color": "#e64469",
+                "color": "#f39d8c"
+            }
+        },
+        {
+            "key": "label",
+            "name": "Label",
+            "default": {
+                "background-color": "#000000",
+                "color": "#ffffff"
+            },
+            "focus": {
+                "background-color": "#000000",
+                "color": "#ff0000"
+            }
+        },
+        {
+            "key": "meat",
+            "name": "Meat",
+            "default": {
+                "background-color": "#ec5a87",
+                "color": "#c21565"
+            },
+            "focus": {
+                "background-color": "#c21565",
+                "color": "#ec5a87"
+            }
+        },
+        {
+            "key": "nuts",
+            "name": "Nuts",
+            "default": {
+                "background-color": "#f8bf00",
+                "color": "#c87121"
+            },
+            "focus": {
+                "background-color": "#c87121",
+                "color": "#f8bf00"
+            }
+        },
+        {
+            "key": "oils",
+            "name": "Oils",
+            "default": {
+                "background-color": "#9a599d",
+                "color": "#4c416c"
+            },
+            "focus": {
+                "background-color": "#4c416c",
+                "color": "#9a599d"
+            }
+        },
+        {
+            "key": "vegetables",
+            "name": "Vegetables",
+            "default": {
+                "background-color": "#b2d59d",
+                "color": "#449666"
+            },
+            "focus": {
+                "background-color": "#449666",
+                "color": "#b2d59d"
+            }
+        }
+    ],
+    "food": [
+        {
+            "name": "Beans",
+            "key": "beans",
+            "label": "Be",
+            "html": "icon-beans",
+            "category": "vegetables",
+            "vitamins": []
+        },
+        {
+            "name": "Beets",
+            "key": "beets",
+            "label": "B",
+            "html": "icon-beets",
+            "category": "vegetables",
+            "vitamins": [ "B9" ]
+        },
+        {
+            "name": "Broccoli",
+            "key": "broccoli",
+            "label": "Br",
+            "html": "icon-broccoli",
+            "category": "vegetables",
+            "vitamins": [ "A", "B2", "B6", "B9", "C", "K" ]
+        },
+        {
+            "name": "Cabbage",
+            "key": "cabbage",
+            "label": "Ca",
+            "html": "icon-cabbage",
+            "category": "vegetables",
+            "vitamins": [ "B6", "K" ]
+        },
+        {
+            "name": "Carrots",
+            "key": "carrots",
+            "label": "C",
+            "html": "icon-carrots",
+            "category": "vegetables",
+            "vitamins": [ "A", "B9" ]
+        },
+        {
+            "name": "Collards",
+            "key": "collards",
+            "label": "Co",
+            "html": "icon-collards",
+            "category": "vegetables",
+            "vitamins": [ "B2", "C", "K" ]
+        },
+        {
+            "name": "Green peas",
+            "key": "green-peas",
+            "label": "GP",
+            "html": "icon-green-peas",
+            "category": "vegetables",
+            "vitamins": [ "B1" ]
+        },
+        {
+            "name": "Mushrooms",
+            "key": "mushrooms",
+            "label": "Mu",
+            "html": "icon-mushrooms",
+            "category": "vegetables",
+            "vitamins": [ "B2", "B5" ]
+        },
+        {
+            "name": "Peppers",
+            "key": "peppers",
+            "label": "Pe",
+            "html": "icon-peppers",
+            "category": "vegetables",
+            "vitamins": [ "C" ]
+        },
+        {
+            "name": "Potatoes",
+            "key": "potatoes",
+            "label": "P",
+            "html": "icon-potatoes",
+            "category": "vegetables",
+            "vitamins": [ "B3", "B6" ]
+        },
+        {
+            "name": "Soy",
+            "key": "soy",
+            "label": "S",
+            "html": "icon-soy",
+            "category": "vegetables",
+            "vitamins": [ "B1" ]
+        },
+        {
+            "name": "Spinach",
+            "key": "spinach",
+            "label": "SP",
+            "html": "icon-sweet-potatoes",
+            "category": "vegetables",
+            "vitamins": [ "B1", "B2", "B3", "B6", "B9", "C", "E" ]
+        },
+        {
+            "name": "Sweet potatoes",
+            "key": "sweet-potatoes",
+            "label": "SP",
+            "html": "icon-sweet-potatoes",
+            "category": "vegetables",
+            "vitamins": [ "A", "E" ]
+        },
+        {
+            "name": "Oranges",
+            "key": "oranges",
+            "label": "Or",
+            "html": "icon-oranges",
+            "category": "fruits",
+            "vitamins": [ "B9", "C" ]
+        },
+        {
+            "name": "Kiwis",
+            "key": "kiwis",
+            "label": "Ki",
+            "html": "icon-kiwis",
+            "category": "fruits",
+            "vitamins": [ "C" ]
+        },
+        {
+            "name": "Bananas",
+            "key": "bananas",
+            "label": "Ba",
+            "html": "icon-bananas",
+            "category": "fruits",
+            "vitamins": [ "B6" ]
+        },
+        {
+            "name": "Papaya",
+            "key": "papaya",
+            "label": "Pa",
+            "html": "icon-papaya",
+            "category": "fruits",
+            "vitamins": [ "A", "C" ]
+        },
+        {
+            "name": "Mango",
+            "key": "mango",
+            "label": "Ma",
+            "html": "icon-mango",
+            "category": "fruits",
+            "vitamins": [ "A", "C" ]
+        },
+        {
+            "name": "Cantalope",
+            "key": "cantalope",
+            "label": "Ca",
+            "html": "icon-cantalope",
+            "category": "fruits",
+            "vitamins": [ "A", "C" ]
+        },
+        {
+            "name": "Avocados",
+            "key": "avocados",
+            "label": "Av",
+            "html": "icon-avocados",
+            "category": "fruits",
+            "vitamins": [ "B2", "B5", "B6", "E" ]
+        },
+        {
+            "name": "Tomatoes",
+            "key": "tomatoes",
+            "label": "To",
+            "html": "icon-tomatoes",
+            "category": "fruits",
+            "vitamins": [ "B3", "B5", "B6", "B9" ]
+        },
+        {
+            "name": "Whole grain",
+            "key": "whole-grain",
+            "label": "WGr",
+            "html": "icon-whole-grain",
+            "category": "grains",
+            "vitamins": [ "B1", "B3", "B9" ]
+        },
+        {
+            "name": "Oats",
+            "key": "oats",
+            "label": "Oa",
+            "html": "icon-oats",
+            "category": "grains",
+            "vitamins": [ "B5", "E" ]
+        },
+        {
+            "name": "Wheat germ",
+            "key": "wheat-germ",
+            "label": "WGe",
+            "html": "icon-wheat-germ",
+            "category": "grains",
+            "vitamins": [ "B1", "E" ]
+        },
+        {
+            "name": "Fortified cereals",
+            "key": "fortified-cereals",
+            "label": "FC",
+            "html": "icon-fortified-cereals",
+            "category": "grains",
+            "vitamins": [ "B5", "B9" ]
+        },
+        {
+            "name": "Bread",
+            "key": "bread",
+            "label": "Br",
+            "html": "icon-bread",
+            "category": "grains",
+            "vitamins": [ "B1", "B2", "B3", "B9" ]
+        },
+        {
+            "name": "Rice",
+            "key": "rice",
+            "label": "Ri",
+            "html": "icon-rice",
+            "category": "grains",
+            "vitamins": [ "B1", "B6", "B7" ]
+        },
+        {
+            "name": "Milk",
+            "key": "milk",
+            "label": "Mi",
+            "html": "icon-milk",
+            "category": "dairy",
+            "vitamins": [ "A", "B2", "B7", "B12" ]
+        },
+        {
+            "name": "Fortified milk",
+            "key": "fortified-milk",
+            "label": "FM",
+            "html": "icon-fortified-milk",
+            "category": "dairy",
+            "vitamins": [ "D" ]
+        },
+        {
+            "name": "Cheese",
+            "key": "cheese",
+            "label": "Ch",
+            "html": "icon-cheese",
+            "category": "dairy",
+            "vitamins": [ "A", "B7", "B12" ]
+        },
+        {
+            "name": "Butter",
+            "key": "butter",
+            "label": "Bu",
+            "html": "icon-butter",
+            "category": "dairy",
+            "vitamins": [ "B7", "E" ]
+        },
+        {
+            "name": "Yogurt",
+            "key": "yogurt",
+            "label": "Yo",
+            "html": "icon-yogurt",
+            "category": "dairy",
+            "vitamins": [ "B2", "B12" ]
+        },
+        {
+            "name": "Egg yolks",
+            "key": "egg-yolks",
+            "label": "EY",
+            "html": "icon-egg-yolks",
+            "category": "dairy",
+            "vitamins": [ "A", "B2", "B5", "B7", "B9", "B12", "D", "E" ]
+        },
+        {
+            "name": "Fish",
+            "key": "fish",
+            "label": "Fi",
+            "html": "icon-fish",
+            "category": "meat",
+            "vitamins": [ "A", "B3", "B6", "B12", "D" ]
+        },
+        {
+            "name": "Shellfish",
+            "key": "shellfish",
+            "label": "Sh",
+            "html": "icon-shellfish",
+            "category": "meat",
+            "vitamins": [ "B3", "B12", "D", "E" ]
+        },
+        {
+            "name": "Poultry",
+            "key": "poultry",
+            "label": "Po",
+            "html": "icon-poultry",
+            "category": "meat",
+            "vitamins": [ "B3", "B5", "B6", "B12" ]
+        },
+        {
+            "name": "Red meat",
+            "key": "red-meat",
+            "label": "Re",
+            "html": "icon-red-meat",
+            "category": "meat",
+            "vitamins": [ "B3", "B5", "B6", "B7", "B12" ]
+        },
+        {
+            "name": "Liver",
+            "key": "liver",
+            "label": "Li",
+            "html": "icon-liver",
+            "category": "meat",
+            "vitamins": [ "A", "B1", "B2", "B5", "B7", "K" ]
+        },
+        {
+            "name": "Almonds",
+            "key": "almonds",
+            "label": "Al",
+            "html": "icon-almonds",
+            "category": "nuts",
+            "vitamins": [ "B7" ]
+        },
+        {
+            "name": "Peanuts",
+            "key": "peanuts",
+            "label": "Pe",
+            "html": "icon-peanuts",
+            "category": "nuts",
+            "vitamins": [ "B1", "B3", "B7" ]
+        },
+        {
+            "name": "Sunflower seeds",
+            "key": "sunflower-seeds",
+            "label": "Su",
+            "html": "icon-sunflower-seeds",
+            "category": "nuts",
+            "vitamins": [ "B1", "B3", "B5", "E" ]
+        },
+        {
+            "name": "Vegetable oil",
+            "key": "vegetable-oil",
+            "label": "Ve",
+            "html": "icon-vegetable-oil",
+            "category": "oils",
+            "vitamins": [ "E" ]
+        },
+        {
+            "name": "Nut oil",
+            "key": "nut-oil",
+            "label": "Nu",
+            "html": "icon-nut-oil",
+            "category": "oils",
+            "vitamins": [ "E" ]
+        }
+    ],
+    "order": [
+        "oils",
+        "nuts",
+        "meat",
+        "dairy",
+        "grains",
+        "fruits",
+        "vegetables"
+    ]
+}

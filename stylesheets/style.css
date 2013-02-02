@@ -3224,99 +3224,43 @@ input[type="submit"].btn.btn-mini {
   position: fixed;
 }
 
-/* line 35, ../sass/style.scss */
-#Values .dairy,
-#Values .fruits,
-#Values .grains,
-#Values .meat,
-#Values .nuts,
-#Values .oils,
-#Values .vegetables {
-  font-size: 13px;
-  height: 35px;
+/* line 31, ../sass/style.scss */
+#UserInput fieldset legend {
+  font-size: 1.25em;
+  text-align: center;
 }
-/* line 39, ../sass/style.scss */
-#Values .dairy td {
+/* line 35, ../sass/style.scss */
+#UserInput fieldset.dairy legend {
   background-color: #8dc1cf;
   color: #019ec7;
 }
-/* line 42, ../sass/style.scss */
-#Values .dairy td.selected {
-  background-color: #019ec7;
-  color: #8dc1cf;
-}
-/* line 47, ../sass/style.scss */
-#Values .fruits td {
+/* line 39, ../sass/style.scss */
+#UserInput fieldset.fruits legend {
   background-color: #fae500;
   color: #fc9d05;
 }
-/* line 50, ../sass/style.scss */
-#Values .fruits td.selected {
-  background-color: #fc9d05;
-  color: #fae500;
-}
-/* line 55, ../sass/style.scss */
-#Values .grains td {
+/* line 43, ../sass/style.scss */
+#UserInput fieldset.grains legend {
   background-color: #f39d8c;
   color: #e64469;
 }
-/* line 58, ../sass/style.scss */
-#Values .grains td.selected {
-  background-color: #e64469;
-  color: #f39d8c;
-}
-/* line 63, ../sass/style.scss */
-#Values .meat td {
+/* line 47, ../sass/style.scss */
+#UserInput fieldset.meat legend {
   background-color: #ec5a87;
   color: #c21565;
 }
-/* line 66, ../sass/style.scss */
-#Values .meat td.selected {
-  background-color: #c21565;
-  color: #ec5a87;
-}
-/* line 71, ../sass/style.scss */
-#Values .nuts td {
+/* line 51, ../sass/style.scss */
+#UserInput fieldset.nuts legend {
   background-color: #f8bf00;
   color: #c87121;
 }
-/* line 74, ../sass/style.scss */
-#Values .nuts td.selected {
-  background-color: #c87121;
-  color: #f8bf00;
-}
-/* line 79, ../sass/style.scss */
-#Values .oils td {
+/* line 55, ../sass/style.scss */
+#UserInput fieldset.oils legend {
   background-color: #9a599d;
   color: #4c416c;
 }
-/* line 82, ../sass/style.scss */
-#Values .oils td.selected {
-  background-color: #4c416c;
-  color: #9a599d;
-}
-/* line 87, ../sass/style.scss */
-#Values .labels {
-  font-size: 20px;
-  height: 40px;
-}
-/* line 90, ../sass/style.scss */
-#Values .labels td {
-  background-color: black;
-  color: white;
-}
-/* line 95, ../sass/style.scss */
-#Values .vegetables td {
+/* line 59, ../sass/style.scss */
+#UserInput fieldset.vegetables legend {
   background-color: #b2d59d;
   color: #449666;
-}
-/* line 106, ../sass/style.scss */
-#Values.fruits-avocados .fruits-avocados, #Values.fruits-bananas .fruits-bananas, #Values.fruits-cantalope .fruits-cantalope, #Values.fruits-kiwis .fruits-kiwis, #Values.fruits-mango .fruits-mango, #Values.fruits-oranges .fruits-oranges, #Values.fruits-papaya .fruits-papaya, #Values.fruits-tomatoes .fruits-tomatoes {
-  background-color: #fc9d05;
-  color: #fae500;
-}
-/* line 122, ../sass/style.scss */
-#Values.vegetable-beans .vegetable-beans, #Values.vegetable-beets .vegetable-beets, #Values.vegetable-broccoli .vegetable-broccoli, #Values.vegetable-cabbage .vegetable-cabbage, #Values.vegetable-carrots .vegetable-carrots, #Values.vegetable-collards .vegetable-collards, #Values.vegetable-green-peas .vegetable-green-peas, #Values.vegetable-mushrooms .vegetable-mushrooms, #Values.vegetable-peppers .vegetable-peppers, #Values.vegetable-potatoes .vegetable-potatoes, #Values.vegetable-soy .vegetable-soy, #Values.vegetable-spinach .vegetable-spinach, #Values.vegetable-sweet-potatoes .vegetable-sweet-potatoes {
-  background-color: #449666;
-  color: #b2d59d;
 }

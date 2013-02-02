@@ -1,7 +1,7 @@
 /* line 43, ../sass/style.large.scss */
 body {
   margin: 0 auto;
-  max-width: 58em;
+  max-width: 800px;
 }
 
 /* line 48, ../sass/style.large.scss */
@@ -12,8 +12,8 @@ body {
 /* line 26, ../sass/style.large.scss */
 #UserInput > * {
   float: left;
-  margin-left: 1.724%;
-  width: 12.808%;
+  margin-left: 0.125%;
+  width: 14.17857%;
 }
 /* line 30, ../sass/style.large.scss */
 #UserInput > *:nth-child(7n) {

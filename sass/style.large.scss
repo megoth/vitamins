@@ -1,6 +1,6 @@
 @import "compass/utilities/general/clearfix";
 
-$dimension-container-width: 58;
+$dimension-container-width: 800;
 $dimension-footer-height: 5em;
 $dimension-grid-margin-abs: 1;
 $dimension-grid-num: 7;
@@ -42,7 +42,7 @@ $dimension-grid-num: 7;
 
 body {
   margin: 0 auto;
-  max-width: $dimension-container-width * 1em;
+  max-width: $dimension-container-width * 1px;
 }
 
 #UserInput {

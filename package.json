@@ -1,0 +1,25 @@
+{
+    "name": "vitamins",
+    "version": "0.0.1",
+    "description": "An interactive version of More Than Supplemental found at http://sblattindesign.wordpress.com/2012/01/04/supplemental/",
+    "homepage": "https://icanhasweb.net/vitamins",
+    "author": {
+        "name": "Arne Hassel",
+        "email": "arne.hassel@gmail.com",
+        "url": "http://icanhasweb.net/"
+    },
+    "contributors": [],
+    "main": "./src/infographic",
+    "repository": "git://github.com/megoth/graphitejs.git",
+    "license": {
+        "type": "MIT",
+        "url": "http://www.opensource.org/licenses/mit-license.php"
+    },
+    "dependencies": {
+        "buster": "",
+        "buster-lint": "",
+        "jquery": "",
+        "raphael": "",
+        "sinon": ""
+    }
+}

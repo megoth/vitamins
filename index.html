@@ -10,443 +10,51 @@
 <body>
     <h1>Supplemental interactive</h1>
     <p>A little something inspired by <a href="http://sblattindesign.wordpress.com/2012/01/04/supplemental/">More than supplemental</a>, an infographic posted at <a href="http://sblattindesign.wordpress.com/">S.B.LattinDesign</a>. Fill out the form and see your personal infographic.</p>
-    <form id="UserInput">
-        <fieldset class="vegetables">
-            <legend>Vegetables</legend>
-            <label class="checkbox vegetable-soy" for="soy">
-                <input id="soy" type="checkbox" name="vegetable-soy" value="vegetable-soy" /> Soy
-            </label>
-            <label class="checkbox vegetable-potatoes" for="potatoes">
-                <input id="potatoes" type="checkbox" name="vegetable-potatoes" value="vegetable-potatoes" /> Potatoes
-            </label>
-            <label class="checkbox vegetable-sweet-potatoes" for="sweet-potatoes">
-                <input id="sweet-potatoes" type="checkbox" name="vegetable-sweet-potatoes" value="vegetable-sweet-potatoes" /> Sweet potatoes
-            </label>
-            <label class="checkbox vegetable-carrots" for="carrots">
-                <input id="carrots" type="checkbox" name="vegetable-carrots" value="vegetable-carrots" /> Carrots
-            </label>
-            <label class="checkbox vegetable-beets" for="beets">
-                <input id="beets" type="checkbox" name="vegetable-beets" value="vegetable-beets" /> Beets
-            </label>
-            <label class="checkbox vegetable-peppers" for="peppers">
-                <input id="peppers" type="checkbox" name="vegetable-peppers" value="vegetable-peppers" /> Peppers
-            </label>
-            <label class="checkbox vegetable-spinach" for="spinach">
-                <input id="spinach" type="checkbox" name="vegetable-spinach" value="vegetable-spinach" /> Spinach
-            </label>
-            <label class="checkbox vegetable-collards" for="collards">
-                <input id="collards" type="checkbox" name="vegetable-collards" value="vegetable-collards" /> Collards
-            </label>
-            <label class="checkbox vegetable-broccoli" for="broccoli">
-                <input id="broccoli" type="checkbox" name="vegetable-broccoli" value="vegetable-broccoli" /> Broccoli
-            </label>
-            <label class="checkbox vegetable-cabbage" for="cabbage">
-                <input id="cabbage" type="checkbox" name="vegetable-cabbage" value="vegetable-cabbage" /> Cabbage
-            </label>
-            <label class="checkbox vegetable-beans" for="beans">
-                <input id="beans" type="checkbox" name="vegetable-beans" value="vegetable-beans" /> Beans
-            </label>
-            <label class="checkbox vegetable-green-peas" for="green-peas">
-                <input id="green-peas" type="checkbox" name="vegetable-green-peas" value="vegetable-green-peas" /> Green peas
-            </label>
-            <label class="checkbox vegetable-mushrooms" for="mushrooms">
-                <input id="mushrooms" type="checkbox" name="vegetable-mushrooms" value="vegetable-mushrooms" /> Mushrooms
-            </label>
-        </fieldset>
-        <fieldset class="fruits">
-            <legend>Fruits</legend>
-            <label class="checkbox fruits-oranges" for="oranges">
-                <input id="oranges" type="checkbox" name="fruits-oranges" value="fruits-oranges" /> Oranges
-            </label>
-            <label class="checkbox fruits-kiwis" for="kiwis">
-                <input id="kiwis" type="checkbox" name="fruits-kiwis" value="fruits-kiwis" /> Kiwis
-            </label>
-            <label class="checkbox fruits-bananas" for="bananas">
-                <input id="bananas" type="checkbox" name="fruits-bananas" value="fruits-bananas" /> Bananas
-            </label>
-            <label class="checkbox fruits-papaya" for="papaya">
-                <input id="papaya" type="checkbox" name="fruits-papaya" value="fruits-papaya" /> Papayas
-            </label>
-            <label class="checkbox fruits-mango" for="mango">
-                <input id="mango" type="checkbox" name="fruits-mango" value="fruits-mango" /> Mango
-            </label>
-            <label class="checkbox fruits-cantalope" for="cantalope">
-                <input id="cantalope" type="checkbox" name="fruits-cantalope" value="fruits-cantalope" /> Cantalope
-            </label>
-            <label class="checkbox fruits-avocados" for="avocados">
-                <input id="avocados" type="checkbox" name="fruits-avocados" value="fruits-avocados" /> Avocados
-            </label>
-            <label class="checkbox fruits-tomatoes" for="tomatoes">
-                <input id="tomatoes" type="checkbox" name="fruits-tomatoes" value="fruits-tomatoes" /> Tomatoes
-            </label>
-        </fieldset>
-        <fieldset class="grains">
-            <legend>Grains</legend>
-        </fieldset>
-        <fieldset class="dairy">
-            <legend>Dairy</legend>
-        </fieldset>
-        <fieldset class="meat">
-            <legend>Meat/Fish</legend>
-        </fieldset>
-        <fieldset class="nuts">
-            <legend>Nuts/Seeds</legend>
-        </fieldset>
-        <fieldset class="oils">
-            <legend>OIls</legend>
-        </fieldset>
-    </form>
+    <form id="UserInput"></form>
     <div id="Infographic"></div>
-    <table id="Values">
-        <tbody>
-            <tr class="labels">
-                <td>A</td>
-                <td>B<sup>1</sup></td>
-                <td>B<sup>2</sup></td>
-                <td>B<sup>3</sup></td>
-                <td>B<sup>5</sup></td>
-                <td>B<sup>6</sup></td>
-                <td>B<sup>7</sup></td>
-                <td>B<sup>9</sup></td>
-                <td>B<sup>12</sup></td>
-                <td>C</td>
-                <td>D</td>
-                <td>E</td>
-                <td>K</td>
-            </tr>
-            <tr class="vegetables">
-                <td class=" vegetable-broccoli vegetable-carrots vegetable-sweet-potatoes">
-                    A
-                </td>
-                <td class=" vegetable-green-peas vegetable-soy vegetable-spinach ">
-                    B<sup>1</sup>
-                </td>
-                <td class=" vegetable-broccoli vegetable-collards vegetable-potatoes vegetable-mushrooms vegetable-spinach">
-                    B<sup>2</sup>
-                </td>
-                <td class=" vegetable-potatoes vegetable-spinach">
-                    B<sup>3</sup>
-                </td>
-                <td class=" vegetable-mushrooms">
-                    B<sup>5</sup>
-                </td>
-                <td class=" vegetable-broccoli vegetable-cabbage vegetable-potatoes vegetable-spinach">
-                    B<sup>6</sup>
-                </td>
-                <td>
-                    B<sup>7</sup>
-                </td>
-                <td class=" vegetable-broccoli vegetable-beets vegetable-carrots vegetable-spinach">
-                    B<sup>9</sup>
-                </td>
-                <td>
-                    B<sup>12</sup>
-                </td>
-                <td class=" vegetable-broccoli vegetable-collards vegetable-peppers vegetable-spinach">
-                    C
-                </td>
-                <td>
-                    D
-                </td>
-                <td class="vegetable-sweet-potatoes vegetable-spinach">
-                    E
-                </td>
-                <td class=" vegetable-broccoli vegetable-cabbage vegetable-collards vegetable-spinach">
-                    K
-                </td>
-            </tr>
-            <tr class="fruits">
-                <td class="fruits-cantalope fruits-mango fruits-papaya">
-                    A
-                </td>
-                <td class="">
-                    B<sup>1</sup>
-                </td>
-                <td class="fruits-avocado">
-                    B<sup>2</sup>
-                </td>
-                <td class="fruits-tomatoes">
-                    B<sup>3</sup>
-                </td>
-                <td class="fruits-avocado fruits-tomatoes">
-                    B<sup>5</sup>
-                </td>
-                <td class="fruits-avocado fruits-bananas fruits-tomatoes">
-                    B<sup>6</sup>
-                </td>
-                <td class="">
-                    B<sup>7</sup>
-                </td>
-                <td class="fruits-oranges fruits-tomatoes">
-                    B<sup>9</sup>
-                </td>
-                <td>
-                    B<sup>12</sup>
-                </td>
-                <td class="fruits-cantalope fruits-kiwis fruits-mango fruits-oranges fruits-papaya">
-                    C
-                </td>
-                <td class="">
-                    D
-                </td>
-                <td class="fruits-avocado">
-                    E
-                </td>
-                <td class="">
-                    K
-                </td>
-            </tr>
-            <tr class="grains">
-                <td class="">
-                    A
-                </td>
-                <td class="">
-                    B<sup>1</sup>
-                </td>
-                <td class="">
-                    B<sup>2</sup>
-                </td>
-                <td class="">
-                    B<sup>3</sup>
-                </td>
-                <td class="">
-                    B<sup>5</sup>
-                </td>
-                <td class="">
-                    B<sup>6</sup>
-                </td>
-                <td class="">
-                    B<sup>7</sup>
-                </td>
-                <td class="">
-                    B<sup>9</sup>
-                </td>
-                <td>
-                    B<sup>12</sup>
-                </td>
-                <td class="">
-                    C
-                </td>
-                <td class="">
-                    D
-                </td>
-                <td class="">
-                    E
-                </td>
-                <td class="">
-                    K
-                </td>
-            </tr>
-            <tr class="dairy">
-                <td class="">
-                    A
-                </td>
-                <td class="">
-                    B<sup>1</sup>
-                </td>
-                <td class="">
-                    B<sup>2</sup>
-                </td>
-                <td class="">
-                    B<sup>3</sup>
-                </td>
-                <td class="">
-                    B<sup>5</sup>
-                </td>
-                <td class="">
-                    B<sup>6</sup>
-                </td>
-                <td class="">
-                    B<sup>7</sup>
-                </td>
-                <td class="">
-                    B<sup>9</sup>
-                </td>
-                <td>
-                    B<sup>12</sup>
-                </td>
-                <td class="">
-                    C
-                </td>
-                <td class="">
-                    D
-                </td>
-                <td class="">
-                    E
-                </td>
-                <td class="">
-                    K
-                </td>
-            </tr>
-            <tr class="meat">
-                <td class="">
-                    A
-                </td>
-                <td class="">
-                    B<sup>1</sup>
-                </td>
-                <td class="">
-                    B<sup>2</sup>
-                </td>
-                <td class="">
-                    B<sup>3</sup>
-                </td>
-                <td class="">
-                    B<sup>5</sup>
-                </td>
-                <td class="">
-                    B<sup>6</sup>
-                </td>
-                <td class="">
-                    B<sup>7</sup>
-                </td>
-                <td class="">
-                    B<sup>9</sup>
-                </td>
-                <td>
-                    B<sup>12</sup>
-                </td>
-                <td class="">
-                    C
-                </td>
-                <td class="">
-                    D
-                </td>
-                <td class="">
-                    E
-                </td>
-                <td class="">
-                    K
-                </td>
-            </tr>
-            <tr class="nuts">
-                <td class="">
-                    A
-                </td>
-                <td class="">
-                    B<sup>1</sup>
-                </td>
-                <td class="">
-                    B<sup>2</sup>
-                </td>
-                <td class="">
-                    B<sup>3</sup>
-                </td>
-                <td class="">
-                    B<sup>5</sup>
-                </td>
-                <td class="">
-                    B<sup>6</sup>
-                </td>
-                <td class="">
-                    B<sup>7</sup>
-                </td>
-                <td class="">
-                    B<sup>9</sup>
-                </td>
-                <td>
-                    B<sup>12</sup>
-                </td>
-                <td class="">
-                    C
-                </td>
-                <td class="">
-                    D
-                </td>
-                <td class="">
-                    E
-                </td>
-                <td class="">
-                    K
-                </td>
-            </tr>
-            <tr class="oils">
-                <td class="">
-                    A
-                </td>
-                <td class="">
-                    B<sup>1</sup>
-                </td>
-                <td class="">
-                    B<sup>2</sup>
-                </td>
-                <td class="">
-                    B<sup>3</sup>
-                </td>
-                <td class="">
-                    B<sup>5</sup>
-                </td>
-                <td class="">
-                    B<sup>6</sup>
-                </td>
-                <td class="">
-                    B<sup>7</sup>
-                </td>
-                <td class="">
-                    B<sup>9</sup>
-                </td>
-                <td>
-                    B<sup>12</sup>
-                </td>
-                <td class="">
-                    C
-                </td>
-                <td class="">
-                    D
-                </td>
-                <td class="">
-                    E
-                </td>
-                <td class="">
-                    K
-                </td>
-            </tr>
-            <tr class="labels">
-                <td class="">
-                    A
-                </td>
-                <td class="">
-                    B<sup>1</sup>
-                </td>
-                <td class="">
-                    B<sup>2</sup>
-                </td>
-                <td class="">
-                    B<sup>3</sup>
-                </td>
-                <td class="">
-                    B<sup>5</sup>
-                </td>
-                <td class="">
-                    B<sup>6</sup>
-                </td>
-                <td class="">
-                    B<sup>7</sup>
-                </td>
-                <td class="">
-                    B<sup>9</sup>
-                </td>
-                <td>
-                    B<sup>12</sup>
-                </td>
-                <td class="">
-                    C
-                </td>
-                <td class="">
-                    D
-                </td>
-                <td class="">
-                    E
-                </td>
-                <td class="">
-                    K
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <script src="js/lib/raphael.js"></script>
-    <script src="js/lib/jquery-1.8.3.min.js"></script>
-    <script src="js/pie.js"></script>
-    <script src="js/infographic.js"></script>
+    <script src="lib/d3.v3.min.js"></script>
+    <script src="lib/jquery-1.8.3.min.js"></script>
+    <script src="lib/underscore-1.4.3.min.js"></script>
+    <script src="src/infographic.js"></script>
+    <script>
+        (function (global) {
+            var width = $("body").width() - 20;
+            d3.json("json/data.json", function (data) {
+                var ig = new global.Infographic(data.categories, data.vitamins, data.food, data.order, width),
+                        processedCategories = ig.processCategories(data.categories),
+                        userInput = $("#UserInput"),
+                        fieldsets = {},
+                        inputs,
+                        html = "";
+                data.order.reverse().forEach(function (category) {
+                    var category = processedCategories[category],
+                            legend = $('<legend>').text(category.name);
+                    fieldsets[category.key] = $('<fieldset>').addClass(category.key).append(legend);
+                });
+                data.food.forEach(function (f) {
+                    var label = $("<label>")
+                            .attr({
+                                "class":"checkbox " + f.category + "-" + f.key,
+                                "for":f.key
+                            });
+                    $("<input>").attr({
+                        "id":f.key,
+                        "name":f.category + "-" + f.key,
+                        "type":"checkbox",
+                        "value":f.key
+                    })
+                            .on("change", function (e) {
+                                ig.toggleFood(f);
+                            })
+                            .appendTo(label);
+                    label.append(f.name);
+                    label.appendTo(fieldsets[f.category]);
+                });
+                Object.keys(fieldsets).forEach(function (key) {
+                    userInput.append(fieldsets[key]);
+                });
+            });
+        }(document || window));
+    </script>
 </body>
 </html>
