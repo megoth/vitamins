@@ -243,7 +243,7 @@
         {
             "name": "Spinach",
             "key": "spinach",
-            "label": "SP",
+            "label": "Sp",
             "html": "icon-sweet-potatoes",
             "category": "vegetables",
             "vitamins": [ "B1", "B2", "B3", "B6", "B9", "C", "E" ]

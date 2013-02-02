@@ -83,7 +83,8 @@
         order = [
             "vegetables",
             "meat"
-        ];
+        ],
+        carrot = food[0];
     buster.testCase("Infographic", {
         setUp: function () {
             this.infographic = new global.Infographic(categories, vitamins, food, order);
@@ -361,9 +362,7 @@
         },
         "Infographic.toggleFood": {
             setUp: function () {
-                var processedVitamins = this.infographic.processVitamins(vitamins),
-                    processedFood = this.infographic.processFood(food, processedVitamins);
-                this.infographic.toggleFood(processedFood.carrot);
+                this.infographic.toggleFood(carrot);
             },
             "All values concerning carrot are affected": function () {
                 assert.equals(this.infographic.values[0].focusCount, 1);
@@ -372,6 +371,21 @@
                 assert.equals(this.infographic.values[1].focusCount, 0);
                 assert.equals(this.infographic.values[1].children[0].focusCount, 0);
                 assert.equals(this.infographic.values[1].children[0].children[0].focusCount, 0);
+            },
+            "Stress-test": {
+                "Multiple clicks": {
+                    setUp: function () {
+                        this.infographic.toggleFood(carrot);
+                    },
+                    "All values concerning carrot are affected": function () {
+                        assert.equals(this.infographic.values[0].focusCount, 0);
+                        assert.equals(this.infographic.values[0].children[0].focusCount, 0);
+                        assert.equals(this.infographic.values[0].children[0].children[0].focusCount, 0);
+                        assert.equals(this.infographic.values[1].focusCount, 0);
+                        assert.equals(this.infographic.values[1].children[0].focusCount, 0);
+                        assert.equals(this.infographic.values[1].children[0].children[0].focusCount, 0);
+                    }
+                }
             }
         }
     });

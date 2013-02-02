@@ -235,7 +235,7 @@
         this.toggledFood[food.key] = this.toggledFood[food.key] ? (this.toggledFood[food.key] + 1) % 2 : 1;
         this.mediator.update(food.key, this.toggledFood[food.key] === 0 ? -1 : 1);
         food.vitamins.forEach(function (vitamin) {
-            this.toggledVitamins[vitamin] += this.toggledVitamins[vitamin] ? this.toggledFood[food.key] === 0 ? -1 : 1 : 1;
+            this.toggledVitamins[vitamin] = this.toggledFood[food.key];
             this.mediator.update(vitamin, this.toggledVitamins[vitamin] === 0 ? -1 : 1);
         }.bind(this));
         this.Paint.updateData(this.values);
