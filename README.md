@@ -6,7 +6,7 @@ The data is located in `lib/data.json`, which should reflect the original data g
 
 The project uses [D3.js](http://d3js.org/) to visualize the data, [jQuery](http://jquery.com/) to handle some DOM, and [Underscore](http://underscorejs.org/) for some utility functions.
 
-[Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) is used for easier stylesheet-handling. [Bootstrap](http://twitter.github.com/bootstrap/) to handle some CSS.
+[Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) is used for easier stylesheet-handling. [Bootstrap](http://twitter.github.com/bootstrap/) is used to ease the work of styling markup.
 
 Most public functions are tested (using [Buster.js](http://busterjs.org), except the ones handled by D3.js.
 
