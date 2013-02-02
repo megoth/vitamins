@@ -8,6 +8,6 @@ The project uses [D3.js](http://d3js.org/) to visualize the data, [jQuery](http:
 
 [Sass](http://sass-lang.com/) and [Compass](http://compass-style.org/) is used for easier stylesheet-handling. [Bootstrap](http://twitter.github.com/bootstrap/) is used to ease the work of styling markup.
 
-Most public functions are tested (using [Buster.js](http://busterjs.org), except the ones handled by D3.js.
+Most public functions are tested (using [Buster.js](http://busterjs.org)), except the ones handled by D3.js.
 
 The code is written by [Arne Hassel](http://icanhasweb.net).
